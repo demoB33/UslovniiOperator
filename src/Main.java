@@ -45,7 +45,7 @@ public class Main {
         }
         if (enterNumbPeople >=61 && enterNumbPeople <=102){
             System.out.println("Есть только стоячее место из " + standPlace);
-        }
+        }////
     }
 
 
