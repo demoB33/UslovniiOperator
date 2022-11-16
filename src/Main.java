@@ -48,6 +48,56 @@ public class Main {
 
             }
         }
+        //8.Задание задание1
+        System.out.println("8.Задание 1:");
+        int ageAll = 25;
+        boolean ageKids = ageAll >= 2 && ageAll <= 6;
+        boolean ageSchoolBoi = ageAll >=7 && ageAll < 18;
+        boolean ageStudent = ageAll >= 18 && ageAll <= 24;
+        if (ageKids){
+            System.out.println("Если возраст человека равен " + ageAll + " то ему нужно ходить в детский сад");
+        } else {
+            if (ageSchoolBoi){
+                System.out.println("Если возраст человека равен " + ageAll + " то ему нужно ходить в школу");
+            }else {
+                if (ageStudent){
+                    System.out.println("Если возраст человека равен " + ageAll + " то ему нужно ходить в университет");
+                }else {
+                    System.out.println("Если возраст человека равен " + ageAll + " то ему пора ходить на работу");
+                }
+            }
+        }
+
+        System.out.println("8.Задание 2:");
+        int ageChildren = 14;
+        if (ageChildren < 5){
+            System.out.println("Если ребенку " + ageChildren + " лет ,  то ему нельзя кататься на атракционе");
+        } else {
+            if (ageChildren >=5 && ageChildren < 14){
+                System.out.println("Если ребенку " + ageChildren + " лет, то ему можно кататься на атракционе в сопровождении взрослого");
+            }else {
+                System.out.println("Если ребенку " + ageChildren + " лет, то ему можно кататься без сопровождения взрослого");
+            }
+        }
+        //8.Задание 3
+        System.out.println("8.Задание 3:");
+        int one = 4;
+        int two = 7;
+        int free = 6;
+        if (one > two){
+            System.out.println("Большее число " + one);
+        } else {
+            if (two > free){
+                System.out.println("Большее число " + two);
+            }else {
+                System.out.println("Большее число " + free);
+            }
+        }
+
+
+
+
+
     }
 }
 
